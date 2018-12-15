@@ -1,11 +1,15 @@
 """
 The main functionality of the app.
 """
-
 from src.blog import Blog
 
-MENU_PROMPT = """Enter 'c' to create a blog, 'l' to list blogs, 'r' to read one,
-                'p' to create a post or 'q' to quit: """
+MENU_PROMPT = """Enter:
+- 'c' to create a blog
+- 'l' to list blogs
+- 'r' to read one
+- 'p' to create a post
+- 'q' to quit
+Your choice: """
 
 POST_TEMPLATE = """
 --- {} ---
