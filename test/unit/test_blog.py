@@ -1,6 +1,6 @@
 """Tests for the blog class."""
 
-from src.blog import Blog
+from blog import Blog
 
 def test_create_blog():
     """Test the creation of a blog."""

@@ -1,6 +1,6 @@
 """Tests for the post class."""
 
-from src.post import Post
+from post import Post
 
 def test_create_post():
     """Test the creation of a post."""
