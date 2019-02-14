@@ -1,6 +1,6 @@
 """ The Blog class. """
 
-from post import Post
+from src.post import Post
 
 class Blog:
     """ The Blog class. """

@@ -1,7 +1,7 @@
 """
 The main functionality of the app.
 """
-from blog import Blog
+from src.blog import Blog
 
 MENU_PROMPT = """Enter:
 - 'c' to create a blog

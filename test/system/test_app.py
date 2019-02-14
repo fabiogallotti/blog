@@ -3,8 +3,8 @@
 from unittest.mock import patch
 import pytest
 import src.app
-from blog import Blog
-from post import Post
+from src.blog import Blog
+from src.post import Post
 
 
 @pytest.fixture(autouse=True)
