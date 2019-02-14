@@ -1,5 +1,5 @@
-coverage==4.5.1
-Django==2.1.2
-pylint==2.1.1
-pytest==3.8.1
-pytest-cov==2.6.0
+coverage==4.5.2
+Django==2.1.7
+pylint==2.2.2
+pytest==4.2.1
+pytest-cov==2.6.1
