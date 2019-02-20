@@ -1,6 +1,7 @@
 """Tests for the post class."""
 
-from post import Post
+from src.post import Post
+
 
 def test_create_post():
     """Test the creation of a post."""
@@ -8,6 +9,7 @@ def test_create_post():
 
     assert post.title == "Test"
     assert post.content == "Test Content"
+
 
 def test_json():
     """Test the json representation of a post."""

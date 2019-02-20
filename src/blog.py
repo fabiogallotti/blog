@@ -1,19 +1,20 @@
 """ The Blog class. """
 
-from post import Post
+from src.post import Post
+
 
 class Blog:
     """ The Blog class. """
+
     def __init__(self, title, author):
         self.title = title
         self.author = author
         self.posts = []
 
     def __repr__(self):
-        return "{} by {} ({} post{})".format(self.title,
-                                             self.author,
-                                             len(self.posts),
-                                             "s" if len(self.posts) != 1 else "")
+        return "{} by {} ({} post{})".format(
+            self.title, self.author, len(self.posts), "s" if len(self.posts) != 1 else ""
+        )
 
     def create_post(self, title, content):
         """ Creates a post in the blog. """
@@ -21,8 +22,4 @@ class Blog:
 
     def json(self):
         """ Returns the json representation of a blog."""
-        return {
-            "title": self.title,
-            "author": self.author,
-            "posts": [post.json() for post in self.posts],
-        }
+        return {"title": self.title, "author": self.author, "posts": [post.json() for post in self.posts]}
